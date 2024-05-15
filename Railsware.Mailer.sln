@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Railsware.Mailer.Host", "Railsware.Mailer.Host\Railsware.Mailer.Host.csproj", "{AD757CD8-3805-4EF6-B2FB-876FD200E8BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Railsware.Mailer.Mailtrap.Client", "Railsware.Mailer.Mailtrap.Client\Railsware.Mailer.Mailtrap.Client.csproj", "{81F5BDBE-1D48-4514-9AA7-040ECF6219E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mailtrap", "Mailtrap", "{018F1A4B-BF3C-4B47-854C-165D599855AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Railsware.Mailer.Mailtrap.Client.Interfaces", "Railsware.Mailer.Mailtrap.Client.Interfaces\Railsware.Mailer.Mailtrap.Client.Interfaces.csproj", "{ABDF7559-FEE3-4356-B7B0-98EF94E7D86B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Railsware.Mailer.Mailtrap.Client.AspNet", "Railsware.Mailer.Mailtrap.Client.AspNet\Railsware.Mailer.Mailtrap.Client.AspNet.csproj", "{FA3D0A1B-CD5B-4BB4-AAE3-B804B0EAB39A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD757CD8-3805-4EF6-B2FB-876FD200E8BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD757CD8-3805-4EF6-B2FB-876FD200E8BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD757CD8-3805-4EF6-B2FB-876FD200E8BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD757CD8-3805-4EF6-B2FB-876FD200E8BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81F5BDBE-1D48-4514-9AA7-040ECF6219E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81F5BDBE-1D48-4514-9AA7-040ECF6219E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81F5BDBE-1D48-4514-9AA7-040ECF6219E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81F5BDBE-1D48-4514-9AA7-040ECF6219E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABDF7559-FEE3-4356-B7B0-98EF94E7D86B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABDF7559-FEE3-4356-B7B0-98EF94E7D86B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABDF7559-FEE3-4356-B7B0-98EF94E7D86B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABDF7559-FEE3-4356-B7B0-98EF94E7D86B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA3D0A1B-CD5B-4BB4-AAE3-B804B0EAB39A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA3D0A1B-CD5B-4BB4-AAE3-B804B0EAB39A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA3D0A1B-CD5B-4BB4-AAE3-B804B0EAB39A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA3D0A1B-CD5B-4BB4-AAE3-B804B0EAB39A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{81F5BDBE-1D48-4514-9AA7-040ECF6219E9} = {018F1A4B-BF3C-4B47-854C-165D599855AB}
+		{ABDF7559-FEE3-4356-B7B0-98EF94E7D86B} = {018F1A4B-BF3C-4B47-854C-165D599855AB}
+		{FA3D0A1B-CD5B-4BB4-AAE3-B804B0EAB39A} = {018F1A4B-BF3C-4B47-854C-165D599855AB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BCECAE1-81B2-4EAE-8A5B-DFC9AF6C2756}
+	EndGlobalSection
+EndGlobal
